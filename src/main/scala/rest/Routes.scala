@@ -63,7 +63,7 @@ trait DatalizeService extends HttpService  {
       get{
         path(""){
           val f = Future{Thread.sleep(30000); """{"name":"Delayer", "waitedFor":"30 Seconds"}"""}
-          val result = Await.result(f, 30 seconds).asInstanceOf[String]
+          val result = Await.result(f, 35 seconds).asInstanceOf[String]
           complete(result)
         }
       }
