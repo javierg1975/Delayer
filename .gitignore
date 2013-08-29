@@ -9,5 +9,25 @@ src_managed/
 project/boot/
 project/plugins/project/
 
+/lib
+/logs
+/project/build/target
+/project/target
+/project-old
+/target
+.idea
+*.DS_Store
+*.iml
+/out
+*.history
+
+*.csv
+.cache
+.classpath
+.externalToolBuilders/
+.project
+.settings/
+build.xml
+
 # Scala-IDE specific
 .scala_dependencies
