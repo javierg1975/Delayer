@@ -32,7 +32,7 @@ class DatalizeServiceActor extends Actor with DatalizeService{
 
 trait DatalizeService extends HttpService  {
 
-  implicit val timeout = Timeout(20 seconds)
+  implicit val timeout = Timeout(40 seconds)
 
   val departuresRoute = {
     pathPrefix(""){
